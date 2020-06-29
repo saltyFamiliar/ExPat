@@ -115,7 +115,6 @@ def choose_input_file():
 			window.lineEdit_2.setText("_")			
 
 		window.label.setText(filename.split("/")[-1])
-		
 		window.progressBar.setFormat(f"Number of rows to be extracted: {file_count}")
 
 
